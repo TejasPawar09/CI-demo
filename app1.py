@@ -8,6 +8,9 @@ def sub(a, b):
 def mul(a, b):
     return a * b
 
+def sum (a, b):
+    return a + b
+
 
 result1 = add(12, 5)
 result2 = sub(12, 5)
