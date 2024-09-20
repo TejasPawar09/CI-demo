@@ -5,8 +5,12 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
+def mul(a, b):
+    return a * b
 
-result1 = add(4, 5)
-result2 = sub(8, 3)
 
-print(result1, result2)
+result1 = add(12, 5)
+result2 = sub(12, 5)
+result3 = mul(12, 5)
+
+print(result1, result2, result3)
